@@ -11,3 +11,6 @@ after_script:
 addons:
   code_climate:
     repo_token: 895d2b45d855e6de9793cd5efd5d8dfcb821e194b9ac5ea9b92d8ead7fa0d804
+    
+notifications:
+  slack: cloudpeople:k1Jm46Rp8iaHASdVeHo2IrmN
