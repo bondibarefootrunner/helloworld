@@ -12,7 +12,7 @@
     "mocha-lcov-reporter": "^1.0.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/istanbul test ./node_modules/.bin/_mocha tests"
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha tests"
   },
   "repository": {
     "type": "git",
