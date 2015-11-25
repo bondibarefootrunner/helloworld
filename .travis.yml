@@ -3,5 +3,8 @@ node_js:
   - "stable"
 
 before_script:
-  - npm install -g mocha
-  - npm install -g chai
+  - npm install -g codeclimate-test-reporter
+  
+addons:
+  code_climate:
+    repo_token: 895d2b45d855e6de9793cd5efd5d8dfcb821e194b9ac5ea9b92d8ead7fa0d804

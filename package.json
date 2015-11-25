@@ -5,11 +5,14 @@
   "main": "lib/server.js",
   "dependencies": {},
   "devDependencies": {
+    "chai": "^3.4.1",
     "coveralls": "^2.11.4",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
     "mocha-lcov-reporter": "^1.0.0"
   },
   "scripts": {
-    "test": "mocha tests"
+    "test": "./node_modules/.bin/istanbul test ./node_modules/.bin/_mocha tests"
   },
   "repository": {
     "type": "git",
